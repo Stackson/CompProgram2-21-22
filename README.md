@@ -3,6 +3,7 @@ Description:
 
 Logo:
 
+## Term 3 Project
 ## Documentation
 Logic Flow diagram
 
