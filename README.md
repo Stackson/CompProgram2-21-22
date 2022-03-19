@@ -20,4 +20,4 @@ Logic Flow diagram
 
 4 Player Board Design
 
-![Nexus Wars Board 4P](https://github.com/Stackson/CompProgram2-21-22/blob/main/Artboard%201.png)
+![Nexus Wars Board 4P](https://github.com/Stackson/CompProgram2-21-22/blob/main/Artboard%201-2.png)
