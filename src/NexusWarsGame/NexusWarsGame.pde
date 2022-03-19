@@ -21,8 +21,12 @@ void draw(){
   }
 }
 void startScreen(){
-  //background(#33ffff);
-  img2 = loadImage("MAIN SHEILD.png");
+  //fill(0);
+  //textAlign(LEFT);
+  //text("Nexus Wars!", width-450, -600);
+  //text("Click to begin!", width/2, -750);
+  background(#3333ff);
+  img2 = loadImage("Artboard 17.png");
   imageMode(CENTER);
   image(img2, width-450, height-450);
   if(mousePressed){
@@ -30,5 +34,14 @@ void startScreen(){
   }
 }
 void gameOver(){
-  
+  background(0);
+  //if (blueCrystal.hp <= 0){
+  //  text("You win!");
+  //} else if (greenCrystal.hp <= 0) {
+  //  text("You win!");
+  //} else if (purpleCrystal.hp <= 0){
+  //  text("You win!");
+  //} else {
+  //  text("You lost.");
+  //}
 }
