@@ -7,7 +7,7 @@ Logo:
 ## Term 3 Project
 ## Documentation
 
-## Decription: 
+# Description: 
 This is a 4 player card game with a board. The goal of the game is to destroy the other person's crystal and to be the last person stamnding.
 
 Logic Flow diagram
