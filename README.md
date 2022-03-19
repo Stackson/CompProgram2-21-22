@@ -1,5 +1,5 @@
 # Computer Programming 2 21-22
-Description: 
+### Description: 
 This is my year 2 of computer programming in the year 2021-2022. This a portfolio of all my projects throughout the year.
 
 Logo:
