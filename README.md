@@ -14,6 +14,10 @@ Logic Flow diagram
 
 ![Nexus Wars drawio](https://github.com/Stackson/CompProgram2-21-22/blob/main/Nexus%20Wars.drawio.png)
 
-Board Design
+2 Player Board Design 
 
-![Nexus wars Board](https://github.com/Stackson/CompProgram2-21-22/blob/main/Artboard%201.png)
+![Nexus Wars Board 2P](https://github.com/Stackson/CompProgram2-21-22/blob/main/Board.png)
+
+4 Player Board Design
+
+![Nexus Wars Board 4P](https://github.com/Stackson/CompProgram2-21-22/blob/main/Artboard%201.png)
