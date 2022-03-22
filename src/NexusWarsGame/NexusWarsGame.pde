@@ -3,7 +3,12 @@
 // NOTE: All graphics have been designed and drawn by Jackson Campbell
 
 PImage img1, img2;
+redCrystal red;
+blueCrystal blue;
+greenCrystal green;
+purpleCrystal purple;
 boolean play;
+
 
 void setup(){
   size(900,900);
@@ -22,26 +27,27 @@ void draw(){
 }
 void startScreen(){
   //fill(0);
-  //textAlign(LEFT);
-  //text("Nexus Wars!", width-450, -600);
-  //text("Click to begin!", width/2, -750);
-  background(#3333ff);
-  img2 = loadImage("Artboard 17.png");
+  //textSize(30);
+  //print("Nexus Wars!", width-150, -600);
+  //print("Click to begin!", width/2, -750);
+  //background(#3333ff);
+  img2 = loadImage("Logo.png");
   imageMode(CENTER);
-  image(img2, width-450, height-450);
+  rotate(radians(180));
+  image(img2, -438, -424);
   if(mousePressed){
     play=true;
   }
 }
 void gameOver(){
   background(0);
-  //if (blueCrystal.hp <= 0){
-  //  text("You win!");
-  //} else if (greenCrystal.hp <= 0) {
-  //  text("You win!");
-  //} else if (purpleCrystal.hp <= 0){
-  //  text("You win!");
-  //} else {
-  //  text("You lost.");
-  //}
+  if (blue.hp <= 0){
+    print("You win!");
+  } else if (green.hp <= 0) {
+    print("You win!");
+  } else if (purple.hp <= 0){
+    print("You win!");
+  } else {
+    print("You lost.");
+  }
 }

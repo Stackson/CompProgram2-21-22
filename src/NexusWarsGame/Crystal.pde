@@ -27,6 +27,8 @@ class blueCrystal extends Crystal{
   
   void display(){
     img4 = loadImage("BNexus.png");
+    image(img4, 459.25, 46);
+    rotate(180);
   }
 }
 
