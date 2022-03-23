@@ -1,8 +1,7 @@
 // Nexus Wars Card Game
 // By Jackson Campbell | March 2022
 // NOTE: All graphics have been designed and drawn by Jackson Campbell
-
-PImage img1, img2;
+PImage img1, img2, img10;
 redCrystal red;
 blueCrystal blue;
 greenCrystal green;
@@ -26,15 +25,13 @@ void draw(){
   }
 }
 void startScreen(){
-  //fill(0);
-  //textSize(30);
-  //print("Nexus Wars!", width-150, -600);
-  //print("Click to begin!", width/2, -750);
-  //background(#3333ff);
-  img2 = loadImage("Logo.png");
+  background(#3333ff);
+  img2 = loadImage("Artboard 20.png");
+  img10 = loadImage("Logo.png");
   imageMode(CENTER);
-  rotate(radians(180));
-  image(img2, -438, -424);
+  //rotate(radians(180));
+  image(img2, 430, 200);
+  image(img10, 438, 442);
   if(mousePressed){
     play=true;
   }
