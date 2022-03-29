@@ -6,6 +6,7 @@ redCrystal red;
 blueCrystal blue;
 greenCrystal green;
 purpleCrystal purple;
+ArrayList<Cards> card;
 boolean play;
 
 
@@ -23,6 +24,10 @@ void draw(){
     imageMode(CENTER);
     image(img1, width-450, height-478);
   }
+  
+  //for(i=0; i++;){
+    
+  //}
 }
 void startScreen(){
   background(#3333ff);

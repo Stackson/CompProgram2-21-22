@@ -1,11 +1,18 @@
 PImage img3,img4,img5,img6;
 class Crystal{
-  int hp , ap, cap, chp;
+  int hp , ap, cap, chp,nhp,nap;
   
   Crystal(){
     hp = 50;
     ap = 2;
+    nhp = 1;
   }
+  
+  //boolean attackDetection(Cards nhp){
+  //  if(){
+      
+  //  }
+  //}
 }
 
 class redCrystal extends Crystal{

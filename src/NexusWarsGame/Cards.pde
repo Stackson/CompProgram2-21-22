@@ -1,11 +1,10 @@
 PImage img7,img8,img9,img11,img12,img13,img14,img15,img16,img17,img18,img19,img20;
 class Cards{
-  int chp, cap;
+  int chp,cap,boa,bhp,bap,ap,nap,nhp,sap;
+  
 }
 
-class ArrowBucket{
-  int boa;
-  
+class ArrowBucket extends Cards{
   ArrowBucket(){
     boa = 3;
   }
@@ -18,7 +17,6 @@ class ArrowBucket{
 }
 
 class Tower extends ArrowBucket{
-  int bhp, bap;
   Tower(){
     bhp = 10;
     bap = bap+boa;
@@ -32,7 +30,6 @@ class Tower extends ArrowBucket{
 }
 
 class Ballista extends ArrowBucket{
-  int bhp, bap;
   Ballista(){
     bhp = 10;
     bap = 5;
@@ -46,8 +43,7 @@ class Ballista extends ArrowBucket{
   }
 }
 
-class ChosenOne {
-  int chp, cap;
+class ChosenOne extends Cards{
   ChosenOne(){
     chp = 8;
     cap = 7;
@@ -60,8 +56,7 @@ class ChosenOne {
   }
 }
 
-class DemonEye{
-  int chp, cap;
+class DemonEye extends Cards{
   DemonEye(){
     chp = 5;
     cap = 4;
@@ -74,8 +69,7 @@ class DemonEye{
   }
 }
 
-class Grandpa{
-  int chp, cap;
+class Grandpa extends Cards{
   Grandpa(){
     chp = 10;
     cap = 10;
@@ -88,8 +82,7 @@ class Grandpa{
   }
 }
 
-class InvisibleMan{
-  int chp, cap;
+class InvisibleMan extends Cards{
   InvisibleMan(){
     chp = 5;
     cap = 5;
@@ -102,11 +95,10 @@ class InvisibleMan{
   }
 }
 
-class Nothing{
-  int chp, cap,ap;
+class Nothing extends Cards{
   Nothing(){
-    chp = 1;
-    cap = 1;
+    nhp = 1;
+    nap = 1;
   }
   
   //Can only attack Nexus and only receive damage from Nexus
@@ -121,8 +113,7 @@ class Nothing{
   }
 }
 
-class RedGoo{
-  int chp, cap;
+class RedGoo extends Cards{
   RedGoo(){
     chp = 3;
     cap = 2;
@@ -135,8 +126,7 @@ class RedGoo{
   }
 }
 
-class RoboBot{
-  int chp, cap;
+class RoboBot extends Cards{
   RoboBot(){
     chp = 6;
     cap = 7;
@@ -149,11 +139,11 @@ class RoboBot{
   }
 }
 
-class Sheep{
-  int chp, cap;
+class Sheep extends Cards{
   Sheep(){
     chp = 12;
     cap = 11;
+    sap = 5;
   }
   
   //Being able to attack the Nexus
@@ -168,8 +158,7 @@ class Sheep{
   }
 }
 
-class Snip{
-  int chp, cap;
+class Snip extends Cards{
   Snip(){
     chp = 9;
     cap = 8;
@@ -182,8 +171,7 @@ class Snip{
   }
 }
 
-class Unicorn{
-  int chp, cap;
+class Unicorn extends Cards{
   Unicorn(){
     chp = 11;
     cap = 9;
@@ -196,8 +184,7 @@ class Unicorn{
   }
 }
 
-class Wall{
-  int chp, cap;
+class Wall extends Cards{
   Wall(){
     chp = 15;
     cap = 2;
@@ -210,8 +197,7 @@ class Wall{
   }
 }
 
-class Yarn{
-  int chp, cap;
+class Yarn extends Cards{
   Yarn(){
     chp = 4;
     cap = 3;
@@ -223,17 +209,3 @@ class Yarn{
     image(img19, 350, 300);
   }
 }
-
-//class DemonEye{
-//  int chp, cap;
-//  DemonEye(){
-//    chp = 8;
-//    cap = 7;
-//  }
-  
-//  void display(){
-//    img7 = loadImage("ChosenOne.png");
-//    imageMode(CENTER);
-//    image(img7, 350, 300);
-//  }
-//}
